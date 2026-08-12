@@ -7,6 +7,6 @@ region
 = "prod/network/terraform.tfstate" 
 = "ap-south-1" 
 dynamodb_table = "tf-lock" 
-encrypt        
+encrypt = true        
 } 
 }
